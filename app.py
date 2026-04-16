@@ -13,7 +13,6 @@ st.set_page_config(layout="wide")
 BASELINE = st.selectbox("Baseline (optional)", [None, "SPY"])
 
 HORIZONS = {
-    "1D": lambda today: today - relativedelta(days=1),
     "1W": lambda today: today - relativedelta(weeks=1),
     "1M": lambda today: today - relativedelta(months=1),
     "3M": lambda today: today - relativedelta(months=3),
