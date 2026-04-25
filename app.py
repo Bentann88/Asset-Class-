@@ -115,7 +115,7 @@ ticker_to_label = {v: k for k, v in TICKERS.items()}
 returns.index = returns.index.map(ticker_to_label)
 
 # ==== UI ====
-st.title("📊 Asset Class Return Dashboard")
+st.title("Asset Class Return Dashboard")
 st.caption(title)
 
 col1, col2 = st.columns([2, 1])
