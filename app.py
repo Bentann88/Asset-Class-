@@ -136,7 +136,7 @@ with col1:
     st.pyplot(fig)
 
 with col2:
-    st.subheader("📈 Rankings")
+    st.subheader( "Rankings")
     ranked = returns.rank(ascending=False)
     st.dataframe(ranked)
 
